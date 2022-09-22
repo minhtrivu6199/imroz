@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a.btn-default.btn-border.btn-opacity {
+    border: 2px solid hsla(0,0%,100%,.2);
+    color: #fff;
+}
+
+a.btn-default {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .header-left .logo img {
+    max-height: 60px;
+}
+
+.header .header-right .menu {
+    flex-wrap: wrap;
+}
+
+.header .header-right .menu li {
+    padding: 0px 10px;
+}
+
